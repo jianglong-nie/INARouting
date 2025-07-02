@@ -1,0 +1,1286 @@
+{
+    "network_json": {
+        "metadata": {
+            "type": "FatTreeNetwork",
+            "k": 4,
+            "servers_per_edge": 8,
+            "random_seed": 42
+        },
+        "nodes": {
+            "core_switches": [
+                "core1",
+                "core2",
+                "core3",
+                "core4"
+            ],
+            "agg_switches": [
+                "pod1_agg1",
+                "pod1_agg2",
+                "pod2_agg1",
+                "pod2_agg2",
+                "pod3_agg1",
+                "pod3_agg2",
+                "pod4_agg1",
+                "pod4_agg2"
+            ],
+            "edge_switches": [
+                "pod1_edge1",
+                "pod1_edge2",
+                "pod2_edge1",
+                "pod2_edge2",
+                "pod3_edge1",
+                "pod3_edge2",
+                "pod4_edge1",
+                "pod4_edge2"
+            ],
+            "all_servers": [
+                "server1",
+                "server10",
+                "server11",
+                "server12",
+                "server13",
+                "server14",
+                "server15",
+                "server16",
+                "server17",
+                "server18",
+                "server19",
+                "server2",
+                "server20",
+                "server21",
+                "server22",
+                "server23",
+                "server24",
+                "server25",
+                "server26",
+                "server27",
+                "server28",
+                "server29",
+                "server3",
+                "server30",
+                "server31",
+                "server32",
+                "server33",
+                "server34",
+                "server35",
+                "server36",
+                "server37",
+                "server38",
+                "server39",
+                "server4",
+                "server40",
+                "server41",
+                "server42",
+                "server43",
+                "server44",
+                "server45",
+                "server46",
+                "server47",
+                "server48",
+                "server49",
+                "server5",
+                "server50",
+                "server51",
+                "server52",
+                "server53",
+                "server54",
+                "server55",
+                "server56",
+                "server57",
+                "server58",
+                "server59",
+                "server6",
+                "server60",
+                "server61",
+                "server62",
+                "server63",
+                "server64",
+                "server7",
+                "server8",
+                "server9"
+            ]
+        },
+        "edge_to_server_map": {
+            "pod1_edge1": [
+                "server1",
+                "server2",
+                "server3",
+                "server4",
+                "server5",
+                "server6",
+                "server7",
+                "server8"
+            ],
+            "pod1_edge2": [
+                "server10",
+                "server11",
+                "server12",
+                "server13",
+                "server14",
+                "server15",
+                "server16",
+                "server9"
+            ],
+            "pod2_edge1": [
+                "server17",
+                "server18",
+                "server19",
+                "server20",
+                "server21",
+                "server22",
+                "server23",
+                "server24"
+            ],
+            "pod2_edge2": [
+                "server25",
+                "server26",
+                "server27",
+                "server28",
+                "server29",
+                "server30",
+                "server31",
+                "server32"
+            ],
+            "pod3_edge1": [
+                "server33",
+                "server34",
+                "server35",
+                "server36",
+                "server37",
+                "server38",
+                "server39",
+                "server40"
+            ],
+            "pod3_edge2": [
+                "server41",
+                "server42",
+                "server43",
+                "server44",
+                "server45",
+                "server46",
+                "server47",
+                "server48"
+            ],
+            "pod4_edge1": [
+                "server49",
+                "server50",
+                "server51",
+                "server52",
+                "server53",
+                "server54",
+                "server55",
+                "server56"
+            ],
+            "pod4_edge2": [
+                "server57",
+                "server58",
+                "server59",
+                "server60",
+                "server61",
+                "server62",
+                "server63",
+                "server64"
+            ]
+        },
+        "links": {
+            "potential_links_with_bandwidth": [
+                {
+                    "source": "core1",
+                    "target": "pod1_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core1",
+                    "target": "pod2_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core1",
+                    "target": "pod3_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core1",
+                    "target": "pod4_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core2",
+                    "target": "pod1_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core2",
+                    "target": "pod2_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core2",
+                    "target": "pod3_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core2",
+                    "target": "pod4_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core3",
+                    "target": "pod1_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core3",
+                    "target": "pod2_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core3",
+                    "target": "pod3_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core3",
+                    "target": "pod4_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core4",
+                    "target": "pod1_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core4",
+                    "target": "pod2_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core4",
+                    "target": "pod3_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "core4",
+                    "target": "pod4_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg1",
+                    "target": "core1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg1",
+                    "target": "core2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg1",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg1",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg2",
+                    "target": "core3",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg2",
+                    "target": "core4",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg2",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_agg2",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "pod1_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "pod1_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server3",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server4",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server5",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server6",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server7",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge1",
+                    "target": "server8",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "pod1_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "pod1_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server10",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server11",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server12",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server13",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server14",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server15",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server16",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod1_edge2",
+                    "target": "server9",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg1",
+                    "target": "core1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg1",
+                    "target": "core2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg1",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg1",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg2",
+                    "target": "core3",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg2",
+                    "target": "core4",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg2",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_agg2",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "pod2_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "pod2_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server17",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server18",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server19",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server20",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server21",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server22",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server23",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge1",
+                    "target": "server24",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "pod2_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "pod2_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server25",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server26",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server27",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server28",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server29",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server30",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server31",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod2_edge2",
+                    "target": "server32",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg1",
+                    "target": "core1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg1",
+                    "target": "core2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg1",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg1",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg2",
+                    "target": "core3",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg2",
+                    "target": "core4",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg2",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_agg2",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "pod3_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "pod3_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server33",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server34",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server35",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server36",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server37",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server38",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server39",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge1",
+                    "target": "server40",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "pod3_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "pod3_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server41",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server42",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server43",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server44",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server45",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server46",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server47",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod3_edge2",
+                    "target": "server48",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg1",
+                    "target": "core1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg1",
+                    "target": "core2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg1",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg1",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg2",
+                    "target": "core3",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg2",
+                    "target": "core4",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg2",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_agg2",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "pod4_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "pod4_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server49",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server50",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server51",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server52",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server53",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server54",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server55",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge1",
+                    "target": "server56",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "pod4_agg1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "pod4_agg2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server57",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server58",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server59",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server60",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server61",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server62",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server63",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "pod4_edge2",
+                    "target": "server64",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server1",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server10",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server11",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server12",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server13",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server14",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server15",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server16",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server17",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server18",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server19",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server2",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server20",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server21",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server22",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server23",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server24",
+                    "target": "pod2_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server25",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server26",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server27",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server28",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server29",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server3",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server30",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server31",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server32",
+                    "target": "pod2_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server33",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server34",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server35",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server36",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server37",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server38",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server39",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server4",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server40",
+                    "target": "pod3_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server41",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server42",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server43",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server44",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server45",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server46",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server47",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server48",
+                    "target": "pod3_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server49",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server5",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server50",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server51",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server52",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server53",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server54",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server55",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server56",
+                    "target": "pod4_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server57",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server58",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server59",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server6",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server60",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server61",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server62",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server63",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server64",
+                    "target": "pod4_edge2",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server7",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server8",
+                    "target": "pod1_edge1",
+                    "bandwidth": 200
+                },
+                {
+                    "source": "server9",
+                    "target": "pod1_edge2",
+                    "bandwidth": 200
+                }
+            ]
+        },
+        "switch_processing_capacities": {
+            "core1": 200,
+            "core2": 200,
+            "core3": 200,
+            "core4": 200,
+            "pod1_agg1": 200,
+            "pod1_agg2": 200,
+            "pod1_edge1": 200,
+            "pod1_edge2": 200,
+            "pod2_agg1": 200,
+            "pod2_agg2": 200,
+            "pod2_edge1": 200,
+            "pod2_edge2": 200,
+            "pod3_agg1": 200,
+            "pod3_agg2": 200,
+            "pod3_edge1": 200,
+            "pod3_edge2": 200,
+            "pod4_agg1": 200,
+            "pod4_agg2": 200,
+            "pod4_edge1": 200,
+            "pod4_edge2": 200
+        }
+    },
+    "jobs_json": [
+        {
+            "id": 1,
+            "workers": [
+                "server15",
+                "server16",
+                "server2",
+                "server48",
+                "server62",
+                "server64",
+                "server9"
+            ],
+            "ps": "server18",
+            "ps_edge": "pod2_edge1"
+        },
+        {
+            "id": 2,
+            "workers": [
+                "server19",
+                "server20",
+                "server3",
+                "server38",
+                "server4",
+                "server44",
+                "server61"
+            ],
+            "ps": "server7",
+            "ps_edge": "pod1_edge1"
+        },
+        {
+            "id": 3,
+            "workers": [
+                "server1",
+                "server17",
+                "server21",
+                "server28",
+                "server39",
+                "server51",
+                "server60"
+            ],
+            "ps": "server32",
+            "ps_edge": "pod2_edge2"
+        },
+        {
+            "id": 4,
+            "workers": [
+                "server14",
+                "server31",
+                "server40",
+                "server49",
+                "server55",
+                "server63",
+                "server8"
+            ],
+            "ps": "server42",
+            "ps_edge": "pod3_edge2"
+        },
+        {
+            "id": 5,
+            "workers": [
+                "server10",
+                "server12",
+                "server23",
+                "server25",
+                "server45",
+                "server56",
+                "server6"
+            ],
+            "ps": "server50",
+            "ps_edge": "pod4_edge1"
+        },
+        {
+            "id": 6,
+            "workers": [
+                "server13",
+                "server26",
+                "server27",
+                "server29",
+                "server30",
+                "server47",
+                "server57"
+            ],
+            "ps": "server35",
+            "ps_edge": "pod3_edge1"
+        },
+        {
+            "id": 7,
+            "workers": [
+                "server24",
+                "server33",
+                "server34",
+                "server36",
+                "server5",
+                "server54",
+                "server59"
+            ],
+            "ps": "server11",
+            "ps_edge": "pod1_edge2"
+        },
+        {
+            "id": 8,
+            "workers": [
+                "server22",
+                "server37",
+                "server41",
+                "server43",
+                "server52",
+                "server53",
+                "server58"
+            ],
+            "ps": "server46",
+            "ps_edge": "pod3_edge2"
+        }
+    ]
+}

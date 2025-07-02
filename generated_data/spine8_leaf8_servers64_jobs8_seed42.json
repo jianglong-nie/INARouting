@@ -1,0 +1,1661 @@
+{
+    "network_json": {
+        "metadata": {
+            "type": "SpineLeafNetwork",
+            "leaf_switch_num": 8,
+            "spine_switch_num": 8,
+            "servers_per_leaf": 8,
+            "random_seed": 42
+        },
+        "nodes": {
+            "leaf_switches": [
+                "leaf1",
+                "leaf2",
+                "leaf3",
+                "leaf4",
+                "leaf5",
+                "leaf6",
+                "leaf7",
+                "leaf8"
+            ],
+            "spine_switches": [
+                "spine1",
+                "spine2",
+                "spine3",
+                "spine4",
+                "spine5",
+                "spine6",
+                "spine7",
+                "spine8"
+            ],
+            "all_servers": [
+                "server1",
+                "server10",
+                "server11",
+                "server12",
+                "server13",
+                "server14",
+                "server15",
+                "server16",
+                "server17",
+                "server18",
+                "server19",
+                "server2",
+                "server20",
+                "server21",
+                "server22",
+                "server23",
+                "server24",
+                "server25",
+                "server26",
+                "server27",
+                "server28",
+                "server29",
+                "server3",
+                "server30",
+                "server31",
+                "server32",
+                "server33",
+                "server34",
+                "server35",
+                "server36",
+                "server37",
+                "server38",
+                "server39",
+                "server4",
+                "server40",
+                "server41",
+                "server42",
+                "server43",
+                "server44",
+                "server45",
+                "server46",
+                "server47",
+                "server48",
+                "server49",
+                "server5",
+                "server50",
+                "server51",
+                "server52",
+                "server53",
+                "server54",
+                "server55",
+                "server56",
+                "server57",
+                "server58",
+                "server59",
+                "server6",
+                "server60",
+                "server61",
+                "server62",
+                "server63",
+                "server64",
+                "server7",
+                "server8",
+                "server9"
+            ]
+        },
+        "server_to_leaf_map": {
+            "server1": "leaf1",
+            "server10": "leaf2",
+            "server11": "leaf2",
+            "server12": "leaf2",
+            "server13": "leaf2",
+            "server14": "leaf2",
+            "server15": "leaf2",
+            "server16": "leaf2",
+            "server17": "leaf3",
+            "server18": "leaf3",
+            "server19": "leaf3",
+            "server2": "leaf1",
+            "server20": "leaf3",
+            "server21": "leaf3",
+            "server22": "leaf3",
+            "server23": "leaf3",
+            "server24": "leaf3",
+            "server25": "leaf4",
+            "server26": "leaf4",
+            "server27": "leaf4",
+            "server28": "leaf4",
+            "server29": "leaf4",
+            "server3": "leaf1",
+            "server30": "leaf4",
+            "server31": "leaf4",
+            "server32": "leaf4",
+            "server33": "leaf5",
+            "server34": "leaf5",
+            "server35": "leaf5",
+            "server36": "leaf5",
+            "server37": "leaf5",
+            "server38": "leaf5",
+            "server39": "leaf5",
+            "server4": "leaf1",
+            "server40": "leaf5",
+            "server41": "leaf6",
+            "server42": "leaf6",
+            "server43": "leaf6",
+            "server44": "leaf6",
+            "server45": "leaf6",
+            "server46": "leaf6",
+            "server47": "leaf6",
+            "server48": "leaf6",
+            "server49": "leaf7",
+            "server5": "leaf1",
+            "server50": "leaf7",
+            "server51": "leaf7",
+            "server52": "leaf7",
+            "server53": "leaf7",
+            "server54": "leaf7",
+            "server55": "leaf7",
+            "server56": "leaf7",
+            "server57": "leaf8",
+            "server58": "leaf8",
+            "server59": "leaf8",
+            "server6": "leaf1",
+            "server60": "leaf8",
+            "server61": "leaf8",
+            "server62": "leaf8",
+            "server63": "leaf8",
+            "server64": "leaf8",
+            "server7": "leaf1",
+            "server8": "leaf1",
+            "server9": "leaf2"
+        },
+        "leaf_to_servers_map": {
+            "leaf1": [
+                "server1",
+                "server2",
+                "server3",
+                "server4",
+                "server5",
+                "server6",
+                "server7",
+                "server8"
+            ],
+            "leaf2": [
+                "server10",
+                "server11",
+                "server12",
+                "server13",
+                "server14",
+                "server15",
+                "server16",
+                "server9"
+            ],
+            "leaf3": [
+                "server17",
+                "server18",
+                "server19",
+                "server20",
+                "server21",
+                "server22",
+                "server23",
+                "server24"
+            ],
+            "leaf4": [
+                "server25",
+                "server26",
+                "server27",
+                "server28",
+                "server29",
+                "server30",
+                "server31",
+                "server32"
+            ],
+            "leaf5": [
+                "server33",
+                "server34",
+                "server35",
+                "server36",
+                "server37",
+                "server38",
+                "server39",
+                "server40"
+            ],
+            "leaf6": [
+                "server41",
+                "server42",
+                "server43",
+                "server44",
+                "server45",
+                "server46",
+                "server47",
+                "server48"
+            ],
+            "leaf7": [
+                "server49",
+                "server50",
+                "server51",
+                "server52",
+                "server53",
+                "server54",
+                "server55",
+                "server56"
+            ],
+            "leaf8": [
+                "server57",
+                "server58",
+                "server59",
+                "server60",
+                "server61",
+                "server62",
+                "server63",
+                "server64"
+            ]
+        },
+        "links": [
+            {
+                "source": "leaf1",
+                "target": "server1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "server8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf1",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server10",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server11",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server12",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server13",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server14",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server15",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server16",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "server9",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf2",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server17",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server18",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server19",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server20",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server21",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server22",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server23",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "server24",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf3",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server25",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server26",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server27",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server28",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server29",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server30",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server31",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "server32",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf4",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server33",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server34",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server35",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server36",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server37",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server38",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server39",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "server40",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf5",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server41",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server42",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server43",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server44",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server45",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server46",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server47",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "server48",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf6",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server49",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server50",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server51",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server52",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server53",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server54",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server55",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "server56",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf7",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server57",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server58",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server59",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server60",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server61",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server62",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server63",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "server64",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine1",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine2",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine3",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine4",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine5",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine6",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine7",
+                "bandwidth": 200
+            },
+            {
+                "source": "leaf8",
+                "target": "spine8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server1",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server10",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server11",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server12",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server13",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server14",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server15",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server16",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "server17",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server18",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server19",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server2",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server20",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server21",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server22",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server23",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server24",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "server25",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server26",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server27",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server28",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server29",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server3",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server30",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server31",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server32",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "server33",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server34",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server35",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server36",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server37",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server38",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server39",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server4",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server40",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "server41",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server42",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server43",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server44",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server45",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server46",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server47",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server48",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "server49",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server5",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server50",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server51",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server52",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server53",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server54",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server55",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server56",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "server57",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server58",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server59",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server6",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server60",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server61",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server62",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server63",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server64",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "server7",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server8",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "server9",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine1",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine2",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine3",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine4",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine5",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine6",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine7",
+                "target": "leaf8",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf1",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf2",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf3",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf4",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf5",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf6",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf7",
+                "bandwidth": 200
+            },
+            {
+                "source": "spine8",
+                "target": "leaf8",
+                "bandwidth": 200
+            }
+        ],
+        "switch_processing_capacities": {
+            "leaf1": 200,
+            "leaf2": 200,
+            "leaf3": 200,
+            "leaf4": 200,
+            "leaf5": 200,
+            "leaf6": 200,
+            "leaf7": 200,
+            "leaf8": 200,
+            "spine1": 200,
+            "spine2": 200,
+            "spine3": 200,
+            "spine4": 200,
+            "spine5": 200,
+            "spine6": 200,
+            "spine7": 200,
+            "spine8": 200
+        }
+    },
+    "jobs_json": [
+        {
+            "id": 1,
+            "workers": [
+                "server10",
+                "server17",
+                "server22",
+                "server23",
+                "server52",
+                "server7",
+                "server9"
+            ],
+            "ps": "server25",
+            "ps_leaf": "leaf4"
+        },
+        {
+            "id": 2,
+            "workers": [
+                "server11",
+                "server12",
+                "server26",
+                "server27",
+                "server43",
+                "server49",
+                "server64"
+            ],
+            "ps": "server15",
+            "ps_leaf": "leaf2"
+        },
+        {
+            "id": 3,
+            "workers": [
+                "server1",
+                "server24",
+                "server28",
+                "server34",
+                "server44",
+                "server55",
+                "server63"
+            ],
+            "ps": "server38",
+            "ps_leaf": "leaf5"
+        },
+        {
+            "id": 4,
+            "workers": [
+                "server16",
+                "server21",
+                "server37",
+                "server45",
+                "server53",
+                "server59",
+                "server8"
+            ],
+            "ps": "server47",
+            "ps_leaf": "leaf6"
+        },
+        {
+            "id": 5,
+            "workers": [
+                "server14",
+                "server18",
+                "server2",
+                "server3",
+                "server31",
+                "server5",
+                "server6"
+            ],
+            "ps": "server54",
+            "ps_leaf": "leaf7"
+        },
+        {
+            "id": 6,
+            "workers": [
+                "server20",
+                "server32",
+                "server33",
+                "server35",
+                "server36",
+                "server51",
+                "server60"
+            ],
+            "ps": "server40",
+            "ps_leaf": "leaf5"
+        },
+        {
+            "id": 7,
+            "workers": [
+                "server13",
+                "server30",
+                "server39",
+                "server4",
+                "server41",
+                "server58",
+                "server62"
+            ],
+            "ps": "server19",
+            "ps_leaf": "leaf3"
+        },
+        {
+            "id": 8,
+            "workers": [
+                "server29",
+                "server42",
+                "server46",
+                "server48",
+                "server56",
+                "server57",
+                "server61"
+            ],
+            "ps": "server50",
+            "ps_leaf": "leaf7"
+        }
+    ]
+}

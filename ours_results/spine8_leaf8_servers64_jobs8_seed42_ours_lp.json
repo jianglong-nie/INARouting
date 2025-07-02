@@ -1,0 +1,2463 @@
+{
+    "model_status": 2,
+    "solve_time": 0.3168337345123291,
+    "maximum_sum_throughput": 1600.0,
+    "job_routing_result": [
+        {
+            "id": 1,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "server9",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf4",
+                    "prob": 0.327356975003972
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine8",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "server52",
+                    "target": "leaf7",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine7",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine6",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf4",
+                    "prob": 0.32735697500397176
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine2",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "server7",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server17",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine6",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf4",
+                    "prob": 0.32735697500397204
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine1",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine3",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine7",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine8",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine4",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine5",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "server22",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine7",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "server23",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "server25",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf4",
+                    "prob": 0.3273569750039717
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine2",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine8",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine1",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf4",
+                    "prob": 0.32735697500397193
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf4",
+                    "prob": 0.32735697500397176
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine4",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine5",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine2",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine8",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf4",
+                    "prob": 0.3273569750039718
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine6",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine1",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine2",
+                    "prob": 0.125
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf4",
+                    "prob": 0.32735697500397193
+                },
+                {
+                    "source": "server10",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine3",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine5",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine1",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine4",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine3",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine7",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine4",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine5",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine6",
+                    "prob": 0.12499999999999994
+                }
+            ],
+            "active_switches": {
+                "leaf1": 1.0,
+                "leaf2": 1.0,
+                "leaf3": 1.0,
+                "leaf4": 1.0,
+                "leaf5": 0.0,
+                "leaf6": 0.0,
+                "leaf7": 1.0,
+                "leaf8": 0.0,
+                "spine1": 0.32735697500397193,
+                "spine2": 0.32735697500397204,
+                "spine3": 0.327356975003972,
+                "spine4": 0.32735697500397176,
+                "spine5": 0.32735697500397176,
+                "spine6": 0.3273569750039718,
+                "spine7": 0.3273569750039717,
+                "spine8": 0.32735697500397193
+            },
+            "aggregation_switches": {
+                "leaf1": 0.1719922245491706,
+                "leaf2": 0.24375113676273236,
+                "leaf3": 0.25906677905689107,
+                "leaf4": 0.3557853414557641,
+                "leaf5": 0.22399606507783576,
+                "leaf6": 0.23108538828286856,
+                "leaf7": 0.16984126984126985,
+                "leaf8": 0.23807824230473898,
+                "spine1": 0.14644112469961357,
+                "spine2": 0.14644112469961362,
+                "spine3": 0.14644112469961357,
+                "spine4": 0.14644112469961348,
+                "spine5": 0.1464411246996135,
+                "spine6": 0.14644112469961354,
+                "spine7": 0.1464411246996135,
+                "spine8": 0.14644112469961354
+            }
+        },
+        {
+            "id": 2,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "server27",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf2",
+                    "target": "server15",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server12",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine8",
+                    "prob": 0.1250000000000013
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.1250000000000005
+                },
+                {
+                    "source": "server64",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf2",
+                    "prob": 0.007812499999999992
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf2",
+                    "prob": 0.007812499999999959
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf2",
+                    "prob": 0.007812499999999979
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine2",
+                    "prob": 0.12500000000000155
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine1",
+                    "prob": 0.12500000000000036
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine3",
+                    "prob": 0.12499999999999736
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine6",
+                    "prob": 0.1250000000000005
+                },
+                {
+                    "source": "server11",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine4",
+                    "prob": 0.12500000000000136
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf2",
+                    "prob": 0.007812500000000043
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine5",
+                    "prob": 0.12499999999999746
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.1250000000000008
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf2",
+                    "prob": 0.007812500000000003
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine7",
+                    "prob": 0.12500000000000022
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.12499999999999914
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12499999999999938
+                },
+                {
+                    "source": "server26",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12499999999999895
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12499999999999968
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine8",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.1250000000000015
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf2",
+                    "prob": 0.007812499999999953
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.12499999999999961
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine6",
+                    "prob": 0.12500000000000192
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.12499999999999883
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf2",
+                    "prob": 0.007812500000000002
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.125000000000001
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.12499999999999964
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine2",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "server43",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12500000000000136
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12499999999999861
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine1",
+                    "prob": 0.12499999999999911
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine7",
+                    "prob": 0.12499999999999807
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine3",
+                    "prob": 0.12500000000000025
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf2",
+                    "prob": 0.007812500000000017
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine5",
+                    "prob": 0.12499999999999956
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine4",
+                    "prob": 0.1249999999999997
+                },
+                {
+                    "source": "server49",
+                    "target": "leaf7",
+                    "prob": 1.0
+                }
+            ],
+            "active_switches": {
+                "leaf1": 0.0,
+                "leaf2": 1.0,
+                "leaf3": 0.0,
+                "leaf4": 1.0,
+                "leaf5": 0.0,
+                "leaf6": 1.0,
+                "leaf7": 1.0,
+                "leaf8": 1.0,
+                "spine1": 0.007812499999999992,
+                "spine2": 0.007812500000000002,
+                "spine3": 0.007812499999999953,
+                "spine4": 0.007812500000000017,
+                "spine5": 0.007812499999999979,
+                "spine6": 0.007812500000000043,
+                "spine7": 0.007812499999999959,
+                "spine8": 0.007812500000000003
+            },
+            "aggregation_switches": {
+                "leaf1": 0.23767296990805684,
+                "leaf2": 0.39984104886271227,
+                "leaf3": 0.2333932643292683,
+                "leaf4": 0.24931783580820058,
+                "leaf5": 0.22399606564845082,
+                "leaf6": 0.16895361308622164,
+                "leaf7": 0.16984126984126985,
+                "leaf8": 0.17217652884925294,
+                "spine1": 0.14644112471670917,
+                "spine2": 0.14644112471670928,
+                "spine3": 0.14644112471670848,
+                "spine4": 0.1464411247167095,
+                "spine5": 0.14644112471670892,
+                "spine6": 0.14644112471670997,
+                "spine7": 0.14644112471670861,
+                "spine8": 0.14644112471670934
+            }
+        },
+        {
+            "id": 3,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "spine7",
+                    "target": "leaf5",
+                    "prob": 0.35965991699927025
+                },
+                {
+                    "source": "server28",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf5",
+                    "prob": 0.35965991699927025
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine8",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine7",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "server34",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf5",
+                    "prob": 0.3596599169992702
+                },
+                {
+                    "source": "leaf5",
+                    "target": "server38",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine2",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.125
+                },
+                {
+                    "source": "server1",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf5",
+                    "prob": 0.3596599169992703
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine6",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine1",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine3",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine6",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "server24",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine8",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine4",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine5",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine5",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine7",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine7",
+                    "prob": 0.12499999999999979
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf5",
+                    "prob": 0.3596599169992703
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine2",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine1",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine3",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine4",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine5",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine8",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine8",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "server44",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine6",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf5",
+                    "prob": 0.3596599169992703
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine2",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "server63",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine2",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "server55",
+                    "target": "leaf7",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine1",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf5",
+                    "prob": 0.35965991699927025
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine4",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine1",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine3",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine7",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine3",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine4",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine5",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine6",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf5",
+                    "prob": 0.3596599169992703
+                }
+            ],
+            "active_switches": {
+                "leaf1": 1.0,
+                "leaf2": 0.0,
+                "leaf3": 1.0,
+                "leaf4": 1.0,
+                "leaf5": 1.0,
+                "leaf6": 1.0,
+                "leaf7": 1.0,
+                "leaf8": 1.0,
+                "spine1": 0.3596599169992703,
+                "spine2": 0.35965991699927025,
+                "spine3": 0.3596599169992703,
+                "spine4": 0.3596599169992703,
+                "spine5": 0.35965991699927025,
+                "spine6": 0.3596599169992702,
+                "spine7": 0.35965991699927025,
+                "spine8": 0.3596599169992703
+            },
+            "aggregation_switches": {
+                "leaf1": 0.17199222863881672,
+                "leaf2": 0.23086444545737306,
+                "leaf3": 0.17002157724681474,
+                "leaf4": 0.17144702797688613,
+                "leaf5": 0.3671921132509371,
+                "leaf6": 0.16895361410121223,
+                "leaf7": 0.16984126984126985,
+                "leaf8": 0.17217653243664768,
+                "spine1": 0.20436191121887895,
+                "spine2": 0.2043619112188789,
+                "spine3": 0.2043619112188789,
+                "spine4": 0.20436191121887887,
+                "spine5": 0.20436191121887892,
+                "spine6": 0.2043619112188788,
+                "spine7": 0.20436191121887892,
+                "spine8": 0.20436191121887895
+            }
+        },
+        {
+            "id": 4,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "spine8",
+                    "target": "leaf6",
+                    "prob": 0.4325141972826145
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine8",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine8",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine7",
+                    "prob": 0.12499999999999974
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine6",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine2",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine2",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "server37",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf6",
+                    "prob": 0.4325141972826145
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine6",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine1",
+                    "prob": 0.12499999999999982
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine1",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine3",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine7",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine3",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine8",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine4",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine5",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine5",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "server53",
+                    "target": "leaf7",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine4",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine7",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf6",
+                    "prob": 0.4325141972826143
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine2",
+                    "prob": 0.12499999999999982
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine8",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine1",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf6",
+                    "prob": 0.4325141972826142
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine3",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "server8",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine4",
+                    "prob": 0.1249999999999998
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine5",
+                    "prob": 0.1249999999999998
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine2",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine8",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "server59",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine6",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine1",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "server16",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf6",
+                    "prob": 0.43251419728261425
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine2",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine6",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine3",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "server21",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server45",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine5",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf6",
+                    "prob": 0.43251419728261425
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine1",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf6",
+                    "target": "server47",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine4",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf6",
+                    "prob": 0.43251419728261437
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine7",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine7",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine4",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine5",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf6",
+                    "prob": 0.43251419728261437
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine6",
+                    "prob": 0.12499999999999982
+                }
+            ],
+            "active_switches": {
+                "leaf1": 1.0,
+                "leaf2": 1.0,
+                "leaf3": 1.0,
+                "leaf4": 0.0,
+                "leaf5": 1.0,
+                "leaf6": 1.0,
+                "leaf7": 1.0,
+                "leaf8": 1.0,
+                "spine1": 0.43251419728261425,
+                "spine2": 0.4325141972826142,
+                "spine3": 0.4325141972826145,
+                "spine4": 0.4325141972826143,
+                "spine5": 0.43251419728261437,
+                "spine6": 0.43251419728261437,
+                "spine7": 0.43251419728261425,
+                "spine8": 0.4325141972826145
+            },
+            "aggregation_switches": {
+                "leaf1": 0.17199222623867447,
+                "leaf2": 0.16884673215588974,
+                "leaf3": 0.17002157481819669,
+                "leaf4": 0.23650911316165074,
+                "leaf5": 0.165582702205149,
+                "leaf6": 0.3836607363653002,
+                "leaf7": 0.16984126984126985,
+                "leaf8": 0.17217653002624023,
+                "spine1": 0.20436191090755515,
+                "spine2": 0.20436191090755515,
+                "spine3": 0.2043619109075553,
+                "spine4": 0.20436191090755515,
+                "spine5": 0.20436191090755515,
+                "spine6": 0.2043619109075551,
+                "spine7": 0.20436191090755518,
+                "spine8": 0.20436191090755523
+            }
+        },
+        {
+            "id": 5,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "server6",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611727
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611716
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine7",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611727
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine6",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "server14",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf7",
+                    "prob": 0.2991002451461172
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine6",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine7",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine8",
+                    "prob": 0.1249999999999998
+                },
+                {
+                    "source": "server31",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine7",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "server5",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611716
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine2",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine8",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine1",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine3",
+                    "prob": 0.12499999999999979
+                },
+                {
+                    "source": "server3",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine4",
+                    "prob": 0.12499999999999976
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine5",
+                    "prob": 0.12499999999999967
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine2",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine8",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf7",
+                    "prob": 0.2991002451461171
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine1",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine2",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611705
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine3",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf7",
+                    "prob": 0.29910024514611705
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine5",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine1",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine4",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "server2",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf7",
+                    "target": "server54",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server18",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine3",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine4",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine5",
+                    "prob": 0.12499999999999997
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine6",
+                    "prob": 0.12499999999999993
+                }
+            ],
+            "active_switches": {
+                "leaf1": 1.0,
+                "leaf2": 1.0,
+                "leaf3": 1.0,
+                "leaf4": 1.0,
+                "leaf5": 0.0,
+                "leaf6": 0.0,
+                "leaf7": 1.0,
+                "leaf8": 0.0,
+                "spine1": 0.29910024514611727,
+                "spine2": 0.29910024514611705,
+                "spine3": 0.29910024514611716,
+                "spine4": 0.2991002451461171,
+                "spine5": 0.29910024514611716,
+                "spine6": 0.29910024514611727,
+                "spine7": 0.29910024514611705,
+                "spine8": 0.2991002451461172
+            },
+            "aggregation_switches": {
+                "leaf1": 0.275958283965041,
+                "leaf2": 0.1688467318456218,
+                "leaf3": 0.17002157435947887,
+                "leaf4": 0.1714470230901171,
+                "leaf5": 0.22399606685406667,
+                "leaf6": 0.23108539333608266,
+                "leaf7": 0.3451006763540298,
+                "leaf8": 0.23807825349817344,
+                "spine1": 0.14644112477061696,
+                "spine2": 0.14644112477061688,
+                "spine3": 0.14644112477061702,
+                "spine4": 0.14644112477061685,
+                "spine5": 0.14644112477061683,
+                "spine6": 0.14644112477061683,
+                "spine7": 0.14644112477061685,
+                "spine8": 0.1464411247706169
+            }
+        },
+        {
+            "id": 6,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "spine7",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403702
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf5",
+                    "prob": 0.27242424854037034
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine8",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "server35",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine7",
+                    "prob": 0.12499999999999967
+                },
+                {
+                    "source": "server60",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf5",
+                    "prob": 0.27242424854037006
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine2",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.1250000000000002
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403701
+                },
+                {
+                    "source": "server20",
+                    "target": "leaf3",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine1",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999972
+                },
+                {
+                    "source": "server51",
+                    "target": "leaf7",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine8",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine4",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine5",
+                    "prob": 0.12500000000000017
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403701
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine2",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine1",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "server32",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server36",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine3",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf5",
+                    "target": "server40",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine4",
+                    "prob": 0.12499999999999974
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine5",
+                    "prob": 0.12499999999999976
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "server33",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine6",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403701
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.12500000000000014
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.1250000000000002
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403702
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf7",
+                    "target": "spine7",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.12499999999999976
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.12499999999999988
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12499999999999974
+                },
+                {
+                    "source": "leaf3",
+                    "target": "spine6",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf5",
+                    "prob": 0.2724242485403702
+                }
+            ],
+            "active_switches": {
+                "leaf1": 0.0,
+                "leaf2": 0.0,
+                "leaf3": 1.0,
+                "leaf4": 1.0,
+                "leaf5": 1.0,
+                "leaf6": 0.0,
+                "leaf7": 1.0,
+                "leaf8": 1.0,
+                "spine1": 0.2724242485403702,
+                "spine2": 0.2724242485403702,
+                "spine3": 0.2724242485403701,
+                "spine4": 0.2724242485403701,
+                "spine5": 0.27242424854037034,
+                "spine6": 0.27242424854037006,
+                "spine7": 0.2724242485403702,
+                "spine8": 0.2724242485403701
+            },
+            "aggregation_switches": {
+                "leaf1": 0.2376730022180348,
+                "leaf2": 0.23086433395318706,
+                "leaf3": 0.17002157508650945,
+                "leaf4": 0.17144702430076003,
+                "leaf5": 0.41238698191221007,
+                "leaf6": 0.23108540554646909,
+                "leaf7": 0.16984126984126985,
+                "leaf8": 0.17217653037145303,
+                "spine1": 0.14644112481300262,
+                "spine2": 0.14644112481300264,
+                "spine3": 0.14644112481300256,
+                "spine4": 0.14644112481300256,
+                "spine5": 0.14644112481300267,
+                "spine6": 0.14644112481300253,
+                "spine7": 0.14644112481300262,
+                "spine8": 0.14644112481300262
+            }
+        },
+        {
+            "id": 7,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "server13",
+                    "target": "leaf2",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine8",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "server39",
+                    "target": "leaf5",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.125
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf3",
+                    "prob": 0.4515223728042929
+                },
+                {
+                    "source": "server4",
+                    "target": "leaf1",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf3",
+                    "prob": 0.45152237280429286
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine6",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine2",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf3",
+                    "target": "server19",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine6",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine1",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine7",
+                    "prob": 0.12499999999999985
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine6",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine3",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine5",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine4",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine7",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine5",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf3",
+                    "prob": 0.4515223728042929
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine7",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "server30",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine8",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine8",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine2",
+                    "prob": 0.12499999999999979
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine8",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.125
+                },
+                {
+                    "source": "server62",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf3",
+                    "prob": 0.451522372804293
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine1",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf3",
+                    "prob": 0.4515223728042928
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine2",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine6",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.1249999999999998
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine3",
+                    "prob": 0.12499999999999982
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine2",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine5",
+                    "prob": 0.12499999999999976
+                },
+                {
+                    "source": "server41",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine1",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf2",
+                    "target": "spine4",
+                    "prob": 0.12499999999999986
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine4",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine1",
+                    "prob": 0.12500000000000006
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine3",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "server58",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf5",
+                    "target": "spine7",
+                    "prob": 0.1249999999999999
+                },
+                {
+                    "source": "spine1",
+                    "target": "leaf3",
+                    "prob": 0.4515223728042929
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.125
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine3",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf3",
+                    "prob": 0.4515223728042928
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine4",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf3",
+                    "prob": 0.45152237280429297
+                },
+                {
+                    "source": "leaf1",
+                    "target": "spine5",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12499999999999997
+                }
+            ],
+            "active_switches": {
+                "leaf1": 1.0,
+                "leaf2": 1.0,
+                "leaf3": 1.0,
+                "leaf4": 1.0,
+                "leaf5": 1.0,
+                "leaf6": 1.0,
+                "leaf7": 0.0,
+                "leaf8": 1.0,
+                "spine1": 0.4515223728042929,
+                "spine2": 0.4515223728042928,
+                "spine3": 0.4515223728042929,
+                "spine4": 0.451522372804293,
+                "spine5": 0.45152237280429297,
+                "spine6": 0.4515223728042929,
+                "spine7": 0.4515223728042928,
+                "spine8": 0.45152237280429286
+            },
+            "aggregation_switches": {
+                "leaf1": 0.17199222625858718,
+                "leaf2": 0.1688467321764635,
+                "leaf3": 0.37406520531656606,
+                "leaf4": 0.17144702389310393,
+                "leaf5": 0.16558270207762218,
+                "leaf6": 0.1689536129382768,
+                "leaf7": 0.23302395516790936,
+                "leaf8": 0.2508630403507197,
+                "spine1": 0.20436191090950584,
+                "spine2": 0.20436191090950587,
+                "spine3": 0.2043619109095059,
+                "spine4": 0.20436191090950576,
+                "spine5": 0.2043619109095059,
+                "spine6": 0.20436191090950587,
+                "spine7": 0.2043619109095059,
+                "spine8": 0.20436191090950598
+            }
+        },
+        {
+            "id": 8,
+            "throughput": 200.0,
+            "links": [
+                {
+                    "source": "spine1",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610376
+                },
+                {
+                    "source": "spine5",
+                    "target": "leaf7",
+                    "prob": 0.2246698453261038
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine6",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "spine6",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610368
+                },
+                {
+                    "source": "server57",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server29",
+                    "target": "leaf4",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine7",
+                    "prob": 0.12500000000000008
+                },
+                {
+                    "source": "spine8",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610376
+                },
+                {
+                    "source": "server61",
+                    "target": "leaf8",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine6",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine6",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine5",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine7",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine7",
+                    "prob": 0.12499999999999982
+                },
+                {
+                    "source": "spine3",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610373
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine8",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "server46",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "server42",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine2",
+                    "prob": 0.12499999999999994
+                },
+                {
+                    "source": "leaf7",
+                    "target": "server50",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine8",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine8",
+                    "prob": 0.12499999999999979
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine1",
+                    "prob": 0.12499999999999989
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine3",
+                    "prob": 0.12499999999999992
+                },
+                {
+                    "source": "spine4",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610376
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine4",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf8",
+                    "target": "spine5",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine2",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine2",
+                    "prob": 0.1250000000000001
+                },
+                {
+                    "source": "server48",
+                    "target": "leaf6",
+                    "prob": 1.0
+                },
+                {
+                    "source": "spine2",
+                    "target": "leaf7",
+                    "prob": 0.2246698453261039
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine4",
+                    "prob": 0.12499999999999983
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine1",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine1",
+                    "prob": 0.12499999999999996
+                },
+                {
+                    "source": "leaf4",
+                    "target": "spine3",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine3",
+                    "prob": 0.12499999999999993
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine5",
+                    "prob": 0.12499999999999999
+                },
+                {
+                    "source": "server56",
+                    "target": "leaf7",
+                    "prob": 1.0
+                },
+                {
+                    "source": "leaf6",
+                    "target": "spine4",
+                    "prob": 0.12500000000000003
+                },
+                {
+                    "source": "spine7",
+                    "target": "leaf7",
+                    "prob": 0.22466984532610376
+                }
+            ],
+            "active_switches": {
+                "leaf1": 0.0,
+                "leaf2": 0.0,
+                "leaf3": 0.0,
+                "leaf4": 1.0,
+                "leaf5": 0.0,
+                "leaf6": 1.0,
+                "leaf7": 1.0,
+                "leaf8": 1.0,
+                "spine1": 0.22466984532610376,
+                "spine2": 0.2246698453261039,
+                "spine3": 0.22466984532610373,
+                "spine4": 0.22466984532610376,
+                "spine5": 0.2246698453261038,
+                "spine6": 0.22466984532610368,
+                "spine7": 0.22466984532610376,
+                "spine8": 0.22466984532610376
+            },
+            "aggregation_switches": {
+                "leaf1": 0.23767298173302262,
+                "leaf2": 0.23086432039528512,
+                "leaf3": 0.23339327836705331,
+                "leaf4": 0.17144702151881716,
+                "leaf5": 0.2239960672224558,
+                "leaf6": 0.2568202337087854,
+                "leaf7": 0.35692389386521994,
+                "leaf8": 0.25086302785448006,
+                "spine1": 0.1130297666097342,
+                "spine2": 0.11302976660973424,
+                "spine3": 0.1130297666097342,
+                "spine4": 0.1130297666097342,
+                "spine5": 0.1130297666097342,
+                "spine6": 0.11302976660973417,
+                "spine7": 0.11302976660973418,
+                "spine8": 0.11302976660973418
+            }
+        }
+    ]
+}
